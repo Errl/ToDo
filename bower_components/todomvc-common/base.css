@@ -289,7 +289,15 @@ label[for='toggle-all'] {
 #todo-list li.priority .priority-btn:after {
 	color: #d66;
 }
+#todo-list li .done {
+    position: absolute;
+    padding: 15px 60px 15px 15px;
+	top: 0;
+	right: 80px;
+	bottom: 0;
+    line-height: 1.2;
 
+}
 #todo-list li .destroy,
 #todo-list li .edit-btn {
 	display: none;
